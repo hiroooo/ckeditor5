@@ -73,6 +73,7 @@
   },
   "dependencies": {
     "@ckeditor/ckeditor5-highlight": "^24.0.0",
+    "@ckeditor/ckeditor5-myblock": "git+https://github.com/hiroooo/ckeditor5-myblock.git",
     "@ckeditor/ckeditor5-upload": "^24.0.0"
   }
 }

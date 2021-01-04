@@ -30,6 +30,7 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
+import MyBlock from '@ckeditor/ckeditor5-myblock/src/myblock';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -58,7 +59,8 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	TextTransformation,
 	SimpleUploadAdapter,
-	Highlight
+	Highlight,
+	MyBlock,
 ];
 
 // Editor configuration.
@@ -81,7 +83,8 @@ ClassicEditor.defaultConfig = {
 			'insertTable',
 			'mediaEmbed',
 			'undo',
-			'highlight'
+			'highlight',
+      'myblock'
 		]
 	},
 	image: {
