@@ -31,6 +31,7 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
+import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
 import MyBlock from '@ckeditor/ckeditor5-myblock/src/myblock';
 
 export default class ClassicEditor extends ClassicEditorBase {}
@@ -62,6 +63,7 @@ ClassicEditor.builtinPlugins = [
 	SimpleUploadAdapter,
 	Highlight,
   Alignment,
+  HtmlEmbed,
 	MyBlock,
 ];
 
@@ -87,6 +89,7 @@ ClassicEditor.defaultConfig = {
 			'undo',
 			'highlight',
       'myblock',
+      'htmlEmbed',
       'alignment'
 		]
 	},
@@ -105,6 +108,9 @@ ClassicEditor.defaultConfig = {
 			'mergeTableCells'
 		]
 	},
+  htmlEmbed: {
+    showPreviews: true,
+  },
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'en'
 };
