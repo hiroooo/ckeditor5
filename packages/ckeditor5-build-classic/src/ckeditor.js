@@ -32,6 +32,8 @@ import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
 import MyBlock from '@ckeditor/ckeditor5-myblock/src/myblock';
+import MyBlockStyle from '@ckeditor/ckeditor5-myblock/src/myblockstyle';
+import MyBlockToolbar from '@ckeditor/ckeditor5-myblock/src/myblocktoolbar';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -63,6 +65,8 @@ ClassicEditor.builtinPlugins = [
   Alignment,
   HtmlEmbed,
 	MyBlock,
+	MyBlockStyle,
+	MyBlockToolbar,
 ];
 
 // Editor configuration.
@@ -104,6 +108,16 @@ ClassicEditor.defaultConfig = {
   htmlEmbed: {
     showPreviews: true,
   },
+  myBlock: {
+    toolbar: [ 
+      'myBlockStyle:waku',
+      'myBlockStyle:kokuban',
+    ],
+    styles: [
+      'waku',
+      'kokuban'
+    ]
+  },
 	// This value must be kept in sync with the language defined in webpack.config.js.
-	language: 'en'
+	language: 'ja'
 };
