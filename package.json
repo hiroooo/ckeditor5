@@ -74,6 +74,7 @@
     "@ckeditor/ckeditor5-utils": "^24.0.0",
     "@ckeditor/ckeditor5-watchdog": "^24.0.0",
     "@ckeditor/ckeditor5-widget": "^24.0.0",
+    "@ckeditor/ckeditor5-myblock": "github:hiroooo/ckeditor5-myblock",
     "@ckeditor/ckeditor5-word-count": "^24.0.0"
   },
   "devDependencies": {
@@ -86,7 +87,6 @@
     "@ckeditor/ckeditor5-export-pdf": ">=1.0.0",
     "@ckeditor/ckeditor5-export-word": ">=1.0.0",
     "@ckeditor/ckeditor5-inspector": "^2.2.1",
-    "@ckeditor/ckeditor5-myblock": "github:hiroooo/ckeditor5-myblock",
     "@ckeditor/ckeditor5-pagination": ">=1.0.0",
     "@ckeditor/ckeditor5-react": "^3.0.0",
     "@ckeditor/ckeditor5-real-time-collaboration": ">=24.0.0",
