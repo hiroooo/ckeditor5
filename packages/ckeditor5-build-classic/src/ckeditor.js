@@ -31,9 +31,9 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
-import MyBlock from '@ckeditor/ckeditor5-myblock/src/myblock';
-import MyBlockStyle from '@ckeditor/ckeditor5-myblock/src/myblockstyle';
-import MyBlockToolbar from '@ckeditor/ckeditor5-myblock/src/myblocktoolbar';
+//import MyBlock from '@ckeditor/ckeditor5-myblock/src/myblock';
+//import MyBlockStyle from '@ckeditor/ckeditor5-myblock/src/myblockstyle';
+//import MyBlockToolbar from '@ckeditor/ckeditor5-myblock/src/myblocktoolbar';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -64,9 +64,9 @@ ClassicEditor.builtinPlugins = [
 	Highlight,
   Alignment,
   HtmlEmbed,
-	MyBlock,
-	MyBlockStyle,
-	MyBlockToolbar,
+	//MyBlock,
+	//MyBlockStyle,
+	//MyBlockToolbar,
 ];
 
 // Editor configuration.
