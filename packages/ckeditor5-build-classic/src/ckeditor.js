@@ -112,7 +112,13 @@ ClassicEditor.defaultConfig = {
     toolbar: [ 
       'myBlockStyle:waku',
       'myBlockStyle:kokuban',
+      'myBlockStyle:awasete',
     ],
+    styles: [
+      'waku',
+      'kokuban',
+      'awasete'
+    ]
   },
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'ja'
